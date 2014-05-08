@@ -4,6 +4,7 @@ public class ArrayList {
 
 	private Object[] elementData = new Object[1];
 	private int size = 0;
+	public int from;
 
 	public void addFirst(Object e) {
 
@@ -95,5 +96,10 @@ public class ArrayList {
 		dat = elementData[size - 1].toString();
 
 		return dat;
+	}
+
+	public Object get(int maxIndex) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }
